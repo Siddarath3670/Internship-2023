@@ -1,0 +1,55 @@
+*{
+scroll-behavior: smooth;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+  width: 10em;
+  max-width: 40%;
+}
+@media(hover:hover) {
+  a:hover {
+    color: white;
+    background-color: black;
+  }
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 190px;
+}
+
+nav {
+  margin:0.1em;
+  display: block;
+}
+
+#navbar {
+  
+  height: 100%;
+  width: 30%;
+  border-right: 3px solid #a3a0a0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  
+}
+nav>ul>li {
+  border-top: 2px solid #8f8f8f;
+  height: 28%;
+  
+  width: 100%;
+}
+nav>ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+main{
+  line-height: 25px;
+  padding: 10px;
+  position: absolute;
+  margin-left: 30%
+}
